@@ -133,6 +133,6 @@ def plugin_settings(settings):
         )
     update_celery_routes(settings, settings.ENV_TOKENS['FIGURES'], figures_tasks_default_queue)
 
-    settings.CELERY_IMPORTS += (
-        "figures.tasks",
-    )
+#    settings.CELERY_IMPORTS += (
+#        "figures.tasks",
+#    )
